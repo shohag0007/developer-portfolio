@@ -69,6 +69,7 @@ nav a {
     color: #474747;
 }
 
+
 /* header related styles */
 
 .header {
@@ -85,8 +86,23 @@ nav a {
     justify-content: space-between;
 }
 
+.dev {
+    color: rgba(24, 24, 24, 0.15);
+    font-family: Open Sans;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 33px;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 300px;
+    left: 270px;
+}
+
 .banner .profile-pic {
     width: 500px;
+    position: relative;
 }
 
 .banner-content {
@@ -168,4 +184,137 @@ main section {
 
     font-weight: 700;
 
+}
+
+.resumeSecton {
+    margin-bottom: 120px;
+}
+
+.btn {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.resumeSecton button {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    outline: none;
+    line-height: normal;
+    padding: 18px 39px;
+    box-shadow: none;
+    border-radius: 5px;
+    background: #FD6E0A;
+    cursor: pointer;
+    border: none;
+}
+
+
+.resume-column {
+    display: flex;
+}
+
+.resume-left {
+    padding-right: 24px;
+}
+
+footer {
+    background: #FFF8F3;
+    padding: 130px 0;
+}
+
+.contact {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 130px;
+}
+
+.contact h1 {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contact p {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.social {}
+
+.social img {}
+
+.con_Right {}
+
+.con_Right h1 {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contact form {}
+
+.contact form input {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 18px 30px;
+    width: 100%;
+    border: none;
+    margin-bottom: 24px;
+    box-shadow: none;
+    outline: none;
+}
+
+.contact form textarea {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 18px 30px;
+    height: 180px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    margin-bottom: 24px;
+}
+
+.contact form button {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    outline: none;
+    line-height: normal;
+    padding: 18px 39px;
+    box-shadow: none;
+    border-radius: 5px;
+    background: #FD6E0A;
+    cursor: pointer;
+    border: none;
 }
